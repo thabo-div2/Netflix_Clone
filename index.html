@@ -16,6 +16,7 @@
 	</head>
 	<body>
 		<div class="banner-wrap">
+			<div class="overlay"></div>
 			<!-- Navbar -->
 			<div class="navbar">
 				<img src="./assets/logoimage.png" alt="Netflix cover image" />
@@ -26,16 +27,18 @@
 			</div>
 			<!-- Banner -->
 			<div class="banner-container">
-				<h1>Unlimited movies, TV shows, and more.</h1>
-				<h2>Watch anywhere. Cancel anytime.</h2>
+				<h1 class="card-title">Unlimited movies, TV shows, and more.</h1>
+				<h2 class="card-subtitle">Watch anywhere. Cancel anytime.</h2>
 
 				<form>
-					<h3>
+					<h3 class="email-form-title">
 						Ready to watch? Enter your email to create or restart your
 						membership.
 					</h3>
-					<input type="email" placeholder="Enter your email address here" />
-					<button>Get Started</button>
+					<div class="get-started-form">
+						<input type="email" placeholder="Email address" />
+						<button>Get Started ></button>
+					</div>
 				</form>
 			</div>
 		</div>
@@ -43,8 +46,8 @@
 		<!-- Information Container -->
 		<div class="info-container">
 			<div class="info">
-				<h1>Enjoy your TV.</h1>
-				<h2>
+				<h1 class="card-title">Enjoy your TV.</h1>
+				<h2 class="card-subtitle">
 					Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
 					players, and more.
 				</h2>
@@ -66,23 +69,33 @@
 
 		<!-- Footer -->
 		<div class="footer">
-			<ul>
-				<li>FAQ</li>
-				<li>Help Center</li>
-				<li>Account</li>
-				<li>Media Center</li>
-				<li>Invester Relations</li>
-				<li>Jobs</li>
-				<li>Ways to Watch</li>
-				<li>Terms of Use</li>
-				<li>Privacy</li>
-				<li>Cookie Preference</li>
-				<li>Corporate Information</li>
-				<li>Contact Us</li>
-				<li>Speed Test</li>
-				<li>Legal Notices</li>
-				<li>Netflix Originals</li>
-			</ul>
+			<div class="footer-items">
+				<div class="footer-top">
+					<a href="#" class="question-title"
+						>Questions? We don't do that here
+					</a>
+				</div>
+				<ul class="footer-links">
+					<li>FAQ</li>
+					<li>Help Center</li>
+					<li>Account</li>
+					<li>Media Center</li>
+					<li>Invester Relations</li>
+					<li>Jobs</li>
+					<li>Ways to Watch</li>
+					<li>Terms of Use</li>
+					<li>Privacy</li>
+					<li>Cookie Preference</li>
+					<li>Corporate Information</li>
+					<li>Contact Us</li>
+					<li>Speed Test</li>
+					<li>Legal Notices</li>
+					<li>Netflix Originals</li>
+				</ul>
+				<div class="footer-bottom">
+					<p>Fake Netflix</p>
+				</div>
+			</div>
 		</div>
 
 		<!-- <div class="my-table">
